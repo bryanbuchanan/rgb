@@ -1,0 +1,9 @@
+{
+  "name": "rgb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "convert": "node index"
+  },
+  "license": "Unlicensed"
+}
