@@ -10,11 +10,9 @@ const formattedData = {
 }
 
 for (const [key, set] of Object.entries(data.spectral_data.data.main)) {
-
 	formattedData.red_ssf.push(set[0])
-	formattedData.blue_ssf.push(set[1])
-	formattedData.green_ssf.push(set[2])
-
+	formattedData.green_ssf.push(set[1])
+	formattedData.blue_ssf.push(set[2])
 }
 
 console.log({formattedData})
